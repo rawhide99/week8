@@ -1,0 +1,9 @@
+Prefix	Return Type		Example
+x		BaseType_t		xTaskCreate()
+v		void			vTaskDelay()
+pv		void *			pvPortMalloc()
+uc		unsigned char	ucQueueGetQueueType()
+pc		char *			pcTaskGetName()
+ul		unsigned long	ulTaskNotifyTake()
+ux		UBaseType_t		uxQueueSpacesAvailable()
+e		enum			eTaskGetState()
