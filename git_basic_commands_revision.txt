@@ -1,0 +1,43 @@
+Command									Description
+git init								Initialize a new Git repository in the current directory.
+git clone [URL]							Clone a repository from a remote URL.
+git status								Show the status of changes (staged, unstaged, untracked files).
+git add [file]							Stage changes (add files to the staging area).
+git add .								Stage all changes in the current directory.
+git commit -m "[message]"				Commit staged changes with a message.
+git log									View commit history.
+git log --oneline						View a concise one-line commit history.
+git branch								List all branches in the repository.
+git branch [branch-name]				Create a new branch.
+git checkout [branch-name]				Switch to a specific branch.
+git switch [branch-name]				Switch to a branch (modern equivalent of checkout).
+git merge [branch-name]					Merge a branch into the current branch.
+git branch -d [branch-name]				Delete a branch (only if fully merged).
+git branch -D [branch-name]				Force delete a branch.
+git remote -v							View remote repository URLs.
+git remote add [name] [URL]				Add a new remote repository.
+git fetch [remote]						Fetch updates from a remote repository (does not merge).
+git pull [remote] [branch]				Fetch and merge updates from a remote branch.
+git push [remote] [branch]				Push commits to a remote branch.
+git push -u [remote] [branch]			Push commits and set upstream for the branch.
+git restore [file]						Discard changes in a file (unstaged).
+git restore --staged [file]				Unstage a file.
+git reset [commit]						Reset branch to a specific commit (preserve changes).
+git reset --hard [commit]				Reset branch to a specific commit and discard all changes.
+git revert [commit]						Create a new commit to undo a specific commit.
+git diff								Show unstaged changes in the working directory.
+git diff --staged						Show changes in the staging area.
+git diff [branch1]..[branch2]			Show differences between two branches.
+git show [commit]						Show details of a specific commit.
+git stash								Save uncommitted changes for later use.
+git stash list							View a list of all stashes.
+git stash apply							Reapply the most recent stash.
+git stash apply [stash@{n}]				Reapply a specific stash.
+git stash drop [stash@{n}]				Delete a specific stash.
+git tag									List all tags in the repository.
+git tag [tag-name]						Create a new lightweight tag.
+git tag -a [tag-name] -m				Create an annotated tag with a message.
+git push [remote] [tag-name]			Push a specific tag to the remote repository.
+git config --global user.name "Name"	Set your name for all repositories.
+git config --global user.email "email@example.com"	Set your email for all repositories.
+git config --list						View all Git configuration settings

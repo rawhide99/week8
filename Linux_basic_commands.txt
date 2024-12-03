@@ -1,0 +1,84 @@
+Command	Description
+
+ls			List files and directories.
+pwd			Print current working directory.
+cd			Change directory.
+mkdir		Create a new directory.
+rmdir		Remove an empty directory.
+touch		Create an empty file.
+cp			Copy files or directories.
+mv			Move or rename files or directories.
+rm			Remove files or directories.
+find		Search for files and directories.
+stat		Display detailed information about a file.
+tree		Display directories as a tree structure.
+cat			View file content.
+less		View file content, one screen at a time.
+more		Similar to less, but less powerful.
+head		View the first few lines of a file.
+tail		View the last few lines of a file.
+nano		Edit files using a simple text editor.
+chmod		Change file permissions.
+chown		Change file owner.
+chgrp		Change group ownership.
+umask		Set default file permissions.
+ps			Display active processes.
+top			Show real-time process information.
+htop		Interactive process viewer (if installed).
+kill		Terminate a process by PID.
+killall		Terminate all processes by name.
+jobs		List background jobs.
+fg			Bring a background job to the foreground.
+bg			Resume a background job.
+df			Display disk space usage.
+du			Show file and directory sizes.
+lsblk		Display block devices.
+mount		Mount a filesystem.
+umount		Unmount a filesystem.
+fdisk		Partition a disk.
+ping		Check network connectivity.
+curl		Transfer data from or to a server.
+wget		Download files from the web.
+ifconfig	Display network configuration (deprecated).
+ip			Configure network interfaces.
+netstat		Display network connections (deprecated).
+ss			Display network connections (replacement).
+scp			Securely copy files between systems.
+rsync		Synchronize files between systems.
+apt-get		Manage packages (install, update, remove).
+apt			Modern replacement for apt-get.
+dpkg		Install, remove, and manage .deb packages.
+yum			Package manager for older Red Hat systems.
+dnf			Modern package manager (replacement for yum).
+rpm			Install and manage .rpm packages.
+uname		Display system information.
+hostname	Show or set the hostname.
+uptime		Show system uptime.
+whoami		Display the current user.
+id			Show user and group IDs.
+free		Display memory usage.
+vmstat		Show system performance statistics.
+dmesg		Display system boot messages.
+tar			Archive files.
+gzip		Compress files.
+gunzip		Decompress .gz files.
+zip			Create compressed zip archives.
+unzip		Extract compressed zip archives.
+adduser		Add a new user.
+useradd		Add a new user (lower-level command).
+passwd		Change a user password.
+usermod		Modify a user account.
+deluser		Remove a user.
+groupadd	Add a new group.
+groups		Display groups for a user.
+grep		Search text using patterns.
+awk			Text processing and pattern scanning.
+sed			Stream editor for text manipulation.
+cut			Extract sections from lines of text.
+sort		Sort lines in a file.
+uniq		Find unique or duplicate lines.
+wc			Count lines, words, and characters.
+tail -f		Monitor real-time log files.
+journalctl	View system logs (for systemd systems).
+uptime		Show how long the system has been running.
+iostat		Show CPU and disk I/O statistics.
